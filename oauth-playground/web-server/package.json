@@ -5,7 +5,9 @@
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^1.0.0",
@@ -18,7 +20,8 @@
     "loopback-datasource-juggler": "^2.19.0",
     "request": "^2.56.0",
     "serve-favicon": "^2.0.1",
-    "strong-express-metrics": "^1.1.0"
+    "strong-express-metrics": "^1.1.0",
+    "snyk": "^1.189.0"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
@@ -30,5 +33,6 @@
     "type": "git",
     "url": "git://github.com/strongloop/strong-gateway-demo.git"
   },
-  "description": "demo-web-server"
+  "description": "demo-web-server",
+  "snyk": true
 }
