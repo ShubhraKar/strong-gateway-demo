@@ -17,10 +17,13 @@
   "scripts": {
     "pretest": "jshint .",
     "start": "node .",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "strong-gateway": "1.0.10"
+    "strong-gateway": "1.0.10",
+    "snyk": "^1.316.1"
   },
   "homepage": "https://github.com/strongloop/strong-gateway-demo",
   "repository": {
@@ -33,5 +36,6 @@
   "license": {
     "name": "StrongLoop",
     "url": "https://github.com/strongloop/strong-gateway-demo/blob/master/LICENSE"
-  }
+  },
+  "snyk": true
 }
