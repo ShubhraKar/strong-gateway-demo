@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -14,7 +16,8 @@
     "loopback-datasource-juggler": "^2.19.0",
     "request": "^2.57.0",
     "serve-favicon": "^2.0.1",
-    "strong-express-metrics": "^1.1.0"
+    "strong-express-metrics": "^1.1.0",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
@@ -26,5 +29,6 @@
     "type": "",
     "url": ""
   },
-  "description": "client"
+  "description": "client",
+  "snyk": true
 }
