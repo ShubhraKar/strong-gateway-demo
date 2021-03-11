@@ -1,0 +1,79 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - strong-gateway > loopback-explorer > express > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > send > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > body-parser > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > compression > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > connect-timeout > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > express-session > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > finalhandler > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > morgan > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-index > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-static > send > debug:
+        patched: '2021-03-11T23:51:23.122Z'
+  'npm:lodash:20180130':
+    - strong-gateway > lodash:
+        patched: '2021-03-11T23:51:23.122Z'
+  'npm:mime:20170907':
+    - strong-gateway > loopback-explorer > express > send > mime:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-static > send > mime:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > swagger-ui > less > mime:
+        patched: '2021-03-11T23:51:23.122Z'
+  'npm:ms:20170412':
+    - strong-gateway > loopback-explorer > express > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > send > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > send > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > connect-timeout > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > body-parser > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > compression > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > connect-timeout > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > express-session > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > finalhandler > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > morgan > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-index > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-static > send > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-static > send > debug > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-favicon > ms:
+        patched: '2021-03-11T23:51:23.122Z'
+  'npm:negotiator:20160616':
+    - strong-gateway > loopback-explorer > express > connect > compression > accepts > negotiator:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-explorer > express > connect > serve-index > accepts > negotiator:
+        patched: '2021-03-11T23:51:23.122Z'
+  'npm:uglify-js:20151024':
+    - strong-gateway > loopback-explorer > swagger-ui > handlebars > uglify-js:
+        patched: '2021-03-11T23:51:23.122Z'
+    - strong-gateway > loopback-policy > nools > uglify-js:
+        patched: '2021-03-11T23:51:23.122Z'
